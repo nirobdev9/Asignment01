@@ -5,3 +5,13 @@
     justify-content: space-between;
     margin: 0 160px;
 }
+.btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    color: #006A50;
+    background-color: white;
+    border-radius: 8px;
+}
+ 
