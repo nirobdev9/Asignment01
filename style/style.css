@@ -14,6 +14,11 @@
     justify-content: space-between;
     margin: 0 160px;
 }
+.site-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
 /* Button style */
 .btn{
     font-size: 18px;
