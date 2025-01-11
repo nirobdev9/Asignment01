@@ -18,6 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 40px;
      
 }
 .site-title{
@@ -44,13 +45,25 @@ nav ul li{
     color: #0E0E0E;
 
 }
+.site-heading{
+    font-size: 35px;
+    font-weight: bold;
+}
+.site-discription{
+    font-size: 14px;
+}
+.vision-sec-heading{
+    font-size: 20px;
+    font-weight: bold;
+    color:  rgba(14, 14, 14, 0.8);
+}
 
 /* banner style */
 .banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
-     
+    border-radius: 24px;
     background-color: #C6E4D6;
     padding-bottom: 70px;
 }
@@ -78,4 +91,28 @@ nav ul li{
 }
 .banner-content{
     padding: 40px 50px;
+}
+/* vision section */
+.Vision-card{
+    display: flex;
+    align-items: center;
+     
+    gap: 10px;
+     
+
+}
+.card{
+    padding: 19px 19px 105px 19px;
+    border-radius: 16px;
+    flex-basis: 100%;
+}
+.card1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.card2{
+    background-color: #C6E4D6;
+}
+.card3{
+    background-color: #F7EBCF;
+     
 }
