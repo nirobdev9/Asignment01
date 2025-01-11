@@ -27,10 +27,15 @@
     border: 1px solid #006A50;
     color: #006A50;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 8px;   
 }
 nav ul li{
     list-style: none;
+
+}
+/* shared style */
+.dark-all{
+    color: #0E0E0E;
 
 }
  
