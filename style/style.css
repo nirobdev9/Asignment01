@@ -38,4 +38,33 @@ nav ul li{
     color: #0E0E0E;
 
 }
- 
+
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 160px;
+}
+.banner-img{
+    width: 474px;
+}
+.banner-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.8);
+}
+.bannar-discription{
+    font-size: 56px ;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.banner-btn{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006A50;
+    color: white;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: none;
+}
