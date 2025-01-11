@@ -36,6 +36,31 @@
     background-color: white;
     border-radius: 8px;   
 }
+.btn1{
+    background-color: #5490F5;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 18px;
+
+}
+.btn2{
+    background-color:  #09A15C;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 18px;
+
+}
+.btn3{
+    background-color:  #FFC239;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 18px;
+    border: none;
+
+}
 nav ul li{
     list-style: none;
 
@@ -96,7 +121,6 @@ nav ul li{
 .Vision-card{
     display: flex;
     align-items: center;
-     
     gap: 10px;
      
 
