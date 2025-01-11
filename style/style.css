@@ -1,3 +1,9 @@
+ /* header & Website width */
+ .header, main{
+    max-width: 1080px;
+    margin: 0 auto;
+ }
+ 
  /* Website font */
  .open-sans-webfont{
   font-family: "Open Sans", serif;
@@ -12,18 +18,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 160px;
+     
 }
 .site-title{
-    font-size: 32px;
+    font-size: 27px;
     font-weight: bold;
     color: #0E0E0E;
 }
 /* Button style */
 .btn{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
-    padding: 15px 30px;
+    padding: 13px 25px;
     border: 1px solid #006A50;
     color: #006A50;
     background-color: white;
@@ -44,28 +50,32 @@ nav ul li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 160px;
+     
     background-color: #C6E4D6;
+    padding-bottom: 70px;
 }
 .banner-img{
-    width: 474px;
+    width: 403px;
 }
 .banner-title{
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 500;
     color: rgba(14, 14, 14, 0.8);
 }
 .bannar-discription{
-    font-size: 56px ;
+    font-size: 48px ;
     font-weight: bold;
     color: #0E0E0E;
 }
 .banner-btn{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     background-color: #006A50;
     color: white;
-    padding: 17px 34px;
+    padding: 15px 30px;
     border-radius: 8px;
     border: none;
+}
+.banner-content{
+    padding: 40px 50px;
 }
