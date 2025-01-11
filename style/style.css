@@ -288,3 +288,16 @@ input::placeholder{
     border-radius: 24px;
     padding: 66px 120px;
 }
+ 
+.hover-efect:hover{
+background: red;
+border:  1px solid #000000;
+}
+.amount:hover{
+    background-color: red;
+    border: 2px solid rgb(119, 255, 119);
+    color: white;
+
+}
+    
+
