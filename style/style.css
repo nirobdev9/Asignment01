@@ -3,6 +3,10 @@
     max-width: 1080px;
     margin: 0 auto;
  }
+ /* site background */
+ .site-bg{
+    background-color: #F1F1F3;
+ }
  
  /* Website font */
  .open-sans-webfont{
@@ -42,6 +46,8 @@
     font-size: 14px;
     font-weight: 600;
     padding: 10px 18px;
+    border-radius: 7px;
+    border: none;
 
 }
 .btn2{
@@ -50,6 +56,8 @@
     font-size: 14px;
     font-weight: 600;
     padding: 10px 18px;
+    border: none;
+    border-radius: 7px;
 
 }
 .btn3{
@@ -59,6 +67,7 @@
     font-weight: 600;
     padding: 10px 18px;
     border: none;
+    border-radius: 7px;
 
 }
 nav ul li{
@@ -76,11 +85,18 @@ nav ul li{
 }
 .site-discription{
     font-size: 14px;
+    color: rgba(14, 14, 14, 0.8);
 }
 .vision-sec-heading{
     font-size: 20px;
     font-weight: bold;
     color:  rgba(14, 14, 14, 0.8);
+}
+.sec-margin{
+    margin: 66px 0;
+}
+.dis-margin{
+    margin: 20px 0;
 }
 
 /* banner style */
@@ -139,4 +155,19 @@ nav ul li{
 .card3{
     background-color: #F7EBCF;
      
+}
+/* quote section */
+.quote-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.quote-content{
+    background-image: url(/assets/quote-bg.png);
+    background-position: left top ;
+    background-repeat: no-repeat;
+    padding: 40px 20px;
+}
+.quote-sec{
+    background-color: white;
+    border-radius: 24px;
 }
